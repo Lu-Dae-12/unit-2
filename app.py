@@ -1,7 +1,9 @@
 
-def count ():
-    y=5
-    for i in range(5):
-        y -=1
-        print(i,y-1)
-count()
+def bill ():
+    bill == 50
+
+values = [1,2.23,5,7,2,30,15]
+print(values)
+for i in values:
+    print(i)
+
