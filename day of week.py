@@ -5,5 +5,6 @@ input("what day is it?")
 if "day_of_week" == "friday":
 
     print("correct")
+
 else:
     print("incorrect")
