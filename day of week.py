@@ -4,7 +4,7 @@ def friday ():
 input("what day is it?")
 if "day_of_week" == "friday":
 
-    print("correct")
+    print("incorrect")
 
 else:
-    print("incorrect")
+    print("correct")
