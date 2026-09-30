@@ -1,10 +1,7 @@
-def friday ():
-    def day_of_week ():
-        day_of_week = "friday"
-input("what day is it?")
-if "day_of_week" == "friday":
+def friday():
+    day = input("what day is it?")
 
-    print("incorrect")
-
-else:
-    print("correct")
+    if day == "friday":
+        print("correct")
+    else:
+        print("incorrect")
