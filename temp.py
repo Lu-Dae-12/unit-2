@@ -1,4 +1,3 @@
-
 temp = 75
 if temp > 68:
     print('warm')

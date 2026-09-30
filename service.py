@@ -1,5 +1,5 @@
 input("selfservice? ")
-def selfservice():
+def selfservice():  
     if selfservice == "great":
         print('0.25')
     elif selfservice == "good":
