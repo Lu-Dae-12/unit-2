@@ -1,3 +1,4 @@
+
 answer = input("How was the service? ")
 values = [answer]
 
@@ -6,16 +7,19 @@ def tip(bill, tip, service_quality):
     answer == ("great", "good", "okay", "bad")
     
     if service_quality == "great":
-        print (total = bill * (1 + tip * 1.25))
+        tip_amount == "1.25"
     elif service_quality == "good":
-        print (total = bill * (1 + tip * 1.2))
+        tip_amount == "1.2"
     elif service_quality == "okay":
-        print (total = bill * (1 + tip * 1.15))
+        tip_amount == "1.15"
     elif service_quality == "bad":
-        print (total = bill * (1 + tip))
+        tip_amount == "1"
     else:
         print('error')
         return None
 
     return total
-        
+
+bill = float(input("What was the bill? "))
+total = bill * tip_amount
+print(total)
