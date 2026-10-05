@@ -1,7 +1,9 @@
-def friday():
-    day = input("what day is it?")
+def is_friday(day):
+    return day.lower() == "monday"
 
-    if day == "friday":
-        print("correct")
-    else:
-        print("incorrect")
+
+day_of_week = input("what day is it? ")
+if is_friday(day_of_week):
+    print("correct")
+else:
+    print("incorrect")
