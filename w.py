@@ -5,7 +5,7 @@ def wizards(N, start, duels):
     if duels[0][1] == owner:
         owner=duels[0][0]
     changed_hands +=1
-print(owner)
+    return owner
 
 
 winner = wizards(3, "A", ["BA", "CB", "DA"])
