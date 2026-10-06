@@ -1,5 +1,5 @@
 def is_friday(day):
-    return day.lower() == "monday"
+    return day.lower() == "tuesday"
 
 
 day_of_week = input("what day is it? ")
