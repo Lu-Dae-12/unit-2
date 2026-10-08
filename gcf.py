@@ -11,4 +11,4 @@ for i in range(1, min(x, y) + 1):
         if y % i == 0:
             factors.append(i)
 
-print("The common factors of", number and number, "are:", factors)
+print("The common factors of", x, "and", y, "are:", factors)
