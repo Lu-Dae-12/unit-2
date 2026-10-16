@@ -7,8 +7,7 @@ y = int(number)
 factors = []
 
 for i in range(1, min(x, y) + 1):
-    if x % i == 0:
-        if y % i == 0:
+    if x % i == 0 and y % i == 0:
             factors.append(i)
 
 print("The common factors of", x, "and", y, "are:", factors)
